@@ -1,0 +1,6 @@
+Bundle-Name: vigilance
+Bundle-SymbolicName: com.ongc.liferay.vigilance
+Bundle-Version: 1.0.0
+Include-Resource:@core-renderer-R8.jar,@itextpdf-5.4.1.jar
+Import-Package: *;resolution:=optional
+Export-Package: com.ongc.liferay.vigilance.constants

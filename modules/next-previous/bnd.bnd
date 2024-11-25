@@ -1,0 +1,4 @@
+Bundle-Name: next-previous
+Bundle-SymbolicName: com.ongc.liferay.next.previous
+Bundle-Version: 1.0.0
+Export-Package: com.ongc.liferay.next.previous.constants

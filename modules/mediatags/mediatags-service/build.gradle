@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:mediatags:mediatags-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../mediatags-api/src/main/java"
+}
+
+group = "com.ongc.liferay.mediatags"

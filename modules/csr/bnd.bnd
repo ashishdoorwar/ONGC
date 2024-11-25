@@ -1,0 +1,4 @@
+Bundle-Name: csr
+Bundle-SymbolicName: com.ongc.liferay.csr
+Bundle-Version: 1.0.0
+Export-Package: com.ongc.liferay.csr.constants

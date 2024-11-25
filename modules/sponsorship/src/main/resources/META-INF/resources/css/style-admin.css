@@ -1,0 +1,40 @@
+body.login-body{background:url('<%=request.getContextPath()%>/images/login-bg.jpg') no-repeat fixed center bottom / cover  transparent;  height:100%; width:100%; overflow:hidden;)}
+.admin-login-main{position: relative;width: 100%;height: 100vh;}
+.admin-login-box {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: rgba(255, 255, 255, 0.9);
+}
+.admin-login-box form{padding:40px 10px;}
+.admin-login-box .button-holder{margin:0 ! important;}
+.admin-login-box .btn-primary{width:100%;}
+.admin-login-box .form-control{background:#fff;}
+.admin-ongc-logo-login {position: absolute;top: -95px;left: 0;right: 0; text-align: center;}
+.admin-log-tx {font-size: 18px; text-align: center;margin-top: 45px;}
+.bg-dark-blue {background: #00426b !important;}
+.light-blue-clr {color: #8caabc !important;}
+
+.ongc-r{ font-size: 18px;vertical-align: bottom;line-height:1}
+.ongc-r a{color: #8f2927}
+.logo{/* margin-top: 30px; */}
+h1{font-size: 18px; border-bottom: 2px solid #ddd; padding-bottom: 5px;}
+main{ min-height: 419px;}
+.spn-form{/* width: 600px; */ margin: auto;}
+.login-footer{padding: 10px 20px !important; position: static !important}
+.pos-ab{position: absolute !important}
+@-webkit-keyframes spin {
+0% {-webkit-transform: rotate(0);transform: rotate(0)}
+100% {-webkit-transform: rotate(359deg);transform: rotate(359deg)}
+}
+@keyframes spin {
+0% {-webkit-transform: rotate(0);transform: rotate(0)}
+100% {-webkit-transform: rotate(359deg);transform: rotate(359deg)}
+}
+.glyphicon-refresh {-webkit-animation: spin 1.5s linear infinite; animation: spin 1.5s linear infinite}
+.loader{ display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 99;}
+.load-icon{position: fixed; text-align: center; line-height: 0; top: 0; left: 0; right: 0; bottom: 0; margin: auto; font-size: 50px; z-index: 999; height: 50px; width: 50px; color: #000; margin: auto;}
+.load-icon span{font-size: 14px;}
+.wpthemeAccess .a11yRegionLabel span{display: none;}

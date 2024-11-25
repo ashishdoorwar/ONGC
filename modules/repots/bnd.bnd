@@ -1,0 +1,6 @@
+Bundle-Name: repots
+Bundle-SymbolicName: com.ongc.liferay
+Bundle-Version: 1.0.0
+Export-Package: com.ongc.liferay.constants,org.apache.pdfbox.*,org.apache.*,
+Include-Resource:@itext-2.0.8.jar,@core-renderer-R8.jar,
+Import-Package: *; version="0";resolution:=optional

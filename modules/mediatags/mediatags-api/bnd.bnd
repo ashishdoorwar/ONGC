@@ -1,0 +1,10 @@
+Bundle-Name: mediatags-api
+Bundle-SymbolicName: com.ongc.liferay.mediatags.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.ongc.liferay.mediatags.exception,\
+	com.ongc.liferay.mediatags.model,\
+	com.ongc.liferay.mediatags.service,\
+	com.ongc.liferay.mediatags.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../mediatags-service/service.xml

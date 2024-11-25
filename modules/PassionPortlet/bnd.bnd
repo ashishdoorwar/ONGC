@@ -1,0 +1,7 @@
+Bundle-Name: PassionPortlet
+Bundle-SymbolicName: com.ongc.liferay.passion
+Bundle-Version: 1.0.0
+Export-Package: com.ongc.liferay.passion.constants
+Import-Package: *;resolution:=optional
+Include-Resource:\
+    @opencloud-0.3.jar,\

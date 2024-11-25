@@ -1,0 +1,8 @@
+Bundle-Name: reports
+Bundle-SymbolicName: com.ongc.liferay.reports
+Bundle-Version: 1.0.0
+Export-Package: com.ongc.liferay.reports.constants
+Import-Package: *;resolution:=optional
+Include-Resource:\
+    @postgresql-42.3.2.jar,
+     @commons-io-2.11.0.jar,\

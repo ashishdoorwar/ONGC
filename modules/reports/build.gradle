@@ -1,0 +1,14 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	compile group: "mysql", name: "mysql-connector-java", version: "8.0.21"
+	
+	compileOnly group: "org.postgresql", name: "postgresql", version: "42.3.2"
+	//implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+	
+	// https://mvnrepository.com/artifact/javax.mail/mail
+	implementation group: 'javax.mail', name: 'mail', version: '1.4.1'
+
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.2"
+}
